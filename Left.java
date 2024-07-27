@@ -6,6 +6,6 @@ package defaultMethod;
 
 public interface Left {
     default void m(){
-        System.out.println("This is from left");
+        System.out.println("This is from left editted by second branch");
     }
 }
