@@ -8,5 +8,7 @@ public interface Left {
     default void m(){
         System.out.println("From left");
         System.out.println("Commiting from third branch: ");
+        System.out.println("This is from left editted by second branch");
+        System.out.println("The confilict between the branch has been resolved! ");
     }
 }
