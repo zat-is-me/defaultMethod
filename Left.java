@@ -10,5 +10,6 @@ public interface Left {
         System.out.println("Commiting from third branch: ");
         System.out.println("This is from left editted by second branch");
         System.out.println("The confilict between the branch has been resolved! ");
+        System.out.println("This is from left branch! ");
     }
 }
