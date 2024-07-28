@@ -7,5 +7,7 @@ package defaultMethod;
 public interface Right {
     default void m(){
         System.out.println("From right");
+        System.out.println("This is from right branch!");
+                
     }
 }
