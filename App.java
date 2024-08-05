@@ -19,9 +19,9 @@ public class App implements Left,Right{
     public void m() {
         Right.super.m();
     }
-
     public static void main(String[] args) {
-        App app = new App();
-        app.m();
+    	App app = new App();
+    	app.m();
     }
+
 }
