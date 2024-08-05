@@ -12,6 +12,6 @@ public interface Left {
         System.out.println("The confilict between the branch has been resolved! ");
         System.out.println("This is from left branch! ");
 
-        System.out.println("Working from left branch department ... ");
+        System.out.println("Left branch version 10!");
     }
 }
