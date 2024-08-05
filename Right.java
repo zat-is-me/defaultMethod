@@ -8,8 +8,12 @@ public interface Right {
     default void m(){
         System.out.println("From right");
         System.out.println("This is from right branch!");
+<<<<<<< HEAD
         
         System.out.println("Right branch version 10!");
                 
+=======
+        System.out.println("Updating the right branch");
+>>>>>>> refs/heads/master
     }
 }
