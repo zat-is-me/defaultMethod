@@ -6,8 +6,8 @@ package defaultMethod;
 
 public class App implements Left,Right{
 
-    //ways of calling default method
-//    @Override
+//    //3 ways of calling default method
+////    @Override
 //    public void m() {
 //       System.out.println("from override");
 //    }
@@ -19,9 +19,9 @@ public class App implements Left,Right{
     public void m() {
         Right.super.m();
     }
-
     public static void main(String[] args) {
-        App app = new App();
-        app.m();
+    	App app = new App();
+    	app.m();
     }
+
 }
