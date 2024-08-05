@@ -13,5 +13,6 @@ public interface Left {
         System.out.println("This is from left branch! ");
 
         System.out.println("Left branch version 10!");
+        System.out.println("Left branch version 11!");
     }
 }
